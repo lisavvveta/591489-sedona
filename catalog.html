@@ -18,24 +18,43 @@
         </nav>
     </header>
     <main class="catalog">
-        <ul class="infrastructure">
-            <li>инфраструктура</li>
+        <section>
+           <ul class="infrastructure">
+               <li><h3>инфраструктура</h3></li>
             <li><input type="button" value=""> бассейн</li>
             <li><input type="button" value=""> парковка</li>
             <li><input type="button" value=""> WI-FI</li>
         </ul>
         <ul class="type-lodging">
-            <li>тип жилья</li>
+            <li><h3>тип жилья</h3></li>
             <li><input type="button" value=""> гостиница</li>
             <li><input type="button" value=""> мотель</li>
             <li><input type="button" value=""> апартаменты</li>
         </ul>
-        <ul class="price">
-           <li>стоимость в сутки(Р)</li>
-            <li>от<input type="text" value="от"></li>
-            <li>до<input type="text" value="до"></li>
-            <li><input type="range" min="0" max="4000"> </li>
-        </ul>
+        <nav class="price">
+            <h3>стоимость в сутки (Р)</h3>
+            <div class="prise-run">
+            <input type="text" value="от" id="from" >
+            <input type="text" value="до">
+            <input type="range" min="0" max="4000"> 
+            </div>
+            <button class="show">показать</button>
+        </nav>
+        </section>
+        <section class="found">
+            <span>найдено</span>
+            <ul class="sorting">
+                <li>Сортировка</li>
+                <li>по цене</li>
+                <li>по типу</li>
+                <li>по рейтенгу</li>
+            </ul>
+        </section>
+        <section class="result">
+            <ul class="result-list">
+                
+            </ul>
+        </section>
     </main>
      <footer class="main-footer">
        <b>#VISITSEDONA</b>
