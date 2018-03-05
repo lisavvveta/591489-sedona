@@ -19,18 +19,36 @@
     </header>
     <main class="catalog">
         <section>
-           <ul class="infrastructure">
+            <ul>
                <li><h3>инфраструктура</h3></li>
-            <li><input type="button" value=""> бассейн</li>
-            <li><input type="button" value=""> парковка</li>
-            <li><input type="button" value=""> WI-FI</li>
-        </ul>
-        <ul class="type-lodging">
-            <li><h3>тип жилья</h3></li>
-            <li><input type="button" value=""> гостиница</li>
-            <li><input type="button" value=""> мотель</li>
-            <li><input type="button" value=""> апартаменты</li>
-        </ul>
+                <li>
+                  <input type="checkbox" name="pool" hidden="hidden" id="pool">
+                  <label for="pool">Бессейн</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="parking place" hidden="hidden" id="parking">
+                  <label for="parking">Парковка</label>
+                </li>
+                <li>
+                  <input type="checkbox" hidden="hidden" name="WI-FI" id="WI-FI">
+                  <label for="WI-FI">WI-FI</label>
+                </li>
+            </ul>
+       <ul>
+               <li><h3>тип жилья</h3></li>
+                <li>
+                  <input type="checkbox" name="hotel" hidden="hidden" id="hotel">
+                  <label for="hotel">гостиница</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="motel" hidden="hidden" id="motel">
+                  <label for="motel">мотель</label>
+                </li>
+                <li>
+                  <input type="checkbox" hidden="hidden" name="apartments" id="apartments">
+                  <label for="apartments">апартаменты</label>
+                </li>
+            </ul>
         <nav class="price">
             <h3>стоимость в сутки (Р)</h3>
             <div class="prise-run">
