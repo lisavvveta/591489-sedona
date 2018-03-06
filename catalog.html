@@ -7,8 +7,7 @@
   <body>
     <header class="main-header">
         <nav class="main-menu">
-           <img src="img/ " width="..." height="..." alt="Логотип Седоны">
-           <!-- нет ссылки на картинку когда появится установить ее размеры--> 
+           <img src="img/..." width="...." height="..." alt="Логотип Седоны">
             <ul class="navigation-site">
                <li><a href="info">информация</a></li>
                <li><a href="foto">фото и видео</a></li>
@@ -20,6 +19,7 @@
     <main class="catalog">
         <section>
             <ul>
+              <img src="img/IMG_9190%20copy.jpg" width="767" height="218" alt="задний фон">
                <li><h3>инфраструктура</h3></li>
                 <li>
                   <input type="checkbox" name="pool" hidden="hidden" id="pool">
@@ -49,15 +49,19 @@
                   <label for="apartments">апартаменты</label>
                 </li>
             </ul>
-        <nav class="price">
+        <form action="echo" method="post" oninput="result.value=resultat.value">
+            <nav class="price">
             <h3>стоимость в сутки (Р)</h3>
             <div class="prise-run">
-            <input type="text" value="от" id="from" >
-            <input type="text" value="до">
-            <input type="range" min="0" max="4000" step="5"> 
+                <input type="text" value="от" id="from" >
+             <div class="half-width output-area">
+                    <output name="result"> </output>
+                </div>
+            <input type="range" id="resultat" name="resultat" min="0" max="4000" step="5" > 
             </div>
             <button class="show">показать</button>
         </nav>
+            </form>
         </section>
         <section class="found">
             <span>найдено</span>
