@@ -10,11 +10,11 @@
     <header class="header">
         <nav class="navigation">
             <ul class="navigation-menu">
-               <li class="punct"><a href="info">информация</a></li>
-               <li class="punct"><a href="foto">фото и видео</a></li>
-               <li class="punct"><a href="..." ><img src="img/Layer%2060.png" width="..." height="..." alt="Логотип Седоны"> </a></li>
-               <li class="punct"><a href="state map">карта штата</a></li>
-               <li class="punct"><a href="hotels">гостиницы</a></li>
+               <li class="punct"><a class="punct-menu" href="info">информация</a></li>
+               <li class="punct"><a class="punct-menu" href="foto">фото и видео</a></li>
+               <li class="punct"><a class="punct-menu" href="..." ><img src="img/Layer%2060.png" width="..." height="..." alt="Логотип Седоны"> </a></li>
+               <li class="punct"><a class="punct-menu" href="state map">карта штата</a></li>
+               <li class="punct"><a class="punct-menu" href="hotels">гостиницы</a></li>
             </ul>
         </nav>
     </header>
@@ -56,21 +56,21 @@
                            </li>
                      </ul>
                 </div>
-                <div class="price">
-                    <h3>стоимость в сутки (P)</h3>
-                    <p class="price-slider">от 0</p>
-                    <p class="price-slider">|</p>
-                    <p class="price-slider">до 3000</p>
-                </div>
-                <div class="slider-range">
-                    <img src="img/filter-button.png" alt="бегунок">
-                    <p class="slider">-</p>
-                    <img src="img/filter-button.png" alt="бегунок2">
-                    <p class="slider">-</p>
-                </div>
-                <div class="botton">
-                    <button class="show">показать</button>
-                </div>
+               <div class="range">
+                  <div class="range-title">Стоимость в сутки (р):</div>
+                 <div class="price">
+                    <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                    <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+                  </div>
+                  <div class="range-controls">
+                      <div class="controls">
+                        <div class="circle"></div>
+                     </div>
+                  <div class="circle-min"></div>
+                  <div class="circle-max"></div>
+              </div>
+              <button class="show" type="submit">Показать</button>
+     </div>
             </div>
         </section>
         <section class="filter">
