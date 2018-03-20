@@ -1,69 +1,73 @@
-body{
-    width: 768px;    
+body{   
     margin: 0;
     padding: 0;
     text-align: center;
-
     font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    color: #333333;
+    font-size: 16px;
+    color: #333;
     text-transform: uppercase;
-    
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f2f2f2f2;
+    background-color: #fff;
+}
+
+
+/*главная страница*/
+
 .punct-menu {
+    display: block;
     margin: 0px;
     text-decoration: none;
-    color: #333333;
+    color: #333;
     padding: 30px;
     margin-top: 90px;
-    
-    
-    display: block;
+}
+
+.punct-menu: hover{
+    color: #a8c9df;
+}
+
+.punct-menu: focus{
+    color: #cecece;
+}
+
+.punct-menu: active{
+    color: #f1f1f1;
 }
 
 .navigation-menu {
     font-weight: bold;
     font-size: 14px;
     line-height: 26px;
-    color: #333333;
-    
+    color: #333;
     list-style: none;
     display: inline-flex;
-    
     padding 60px;
     margin: -100px;
     position: 50%;
     margin-left: -155px;
 }
 
-.navigation-menu a:hover {
-    color: #a8c9df;
-}
-
-.navigation-menu a:focus {
-    color: #cecece;
-}
-
-.navigation-menu a:active {
-    color: #aba19b;
-}
 
 .welcome{
     display: block;
     padding: 50px;
-    position: 60%;
+    position: 100%;
     margin: auto;
 }
 
 .baner {
-    background-image: url("/img/background%20photo.jpg");
+    background-image: url("../img/background%20photo.jpg");
     background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
-    background-position: 50% 50%;
-    height: 550px;
+    background-size: cover;
+    height: 510px;
 }
 
 .review{
@@ -71,33 +75,37 @@ body{
     width: 610px;
     height: 50px;
     position: 50%;
+    margin: 25px;
 } 
 
-.text-punct{
-    padding: 25px;
-    margin: 0px;
+.corps{
+    background-color: #fff;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
 }
 
-
 .advantages {
-    display:inline-flex;  
+    display:inline-flex;
+    justify-content: space-between;
     position: 100%;
-    padding-top: 50px;
+    margin-top: 25px;
 }
 
 
 .wrap{
+    position:33%;
     background-color: #81b3d2;
-    position: 33%;
-    color: #ffffff;
+    width: 400px;
+    color: #fff;
     height: 256px;
+    margin: 0 auto;
 }
 
 .wrap-img{
     position: 67%;
     padding: 0px;
     height: 255px;
-    width: 510px;
 }
 
 .wrap1{
@@ -106,7 +114,26 @@ body{
 
 .wrap2{
     position: 33%;
-    background-color: #eeeeee
+    background-color: #f2f2f2f2;
+}
+
+.button{
+    
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+.visually-hidden{
+    visibility: hidden;
+}
+
+.map{
+    background-image: url(../img/map.jpg);
+    height: 475px;
 }
 
 .main-footer{
@@ -129,16 +156,13 @@ body{
 }
 
 .social-button{
-    background-image: url(/img/t.jpg);
+    background-image: url(../img/t.jpg);
     
 }
 
 
 
-
-
-
-
+/*страница отеля*/
 
 .choice {
     background-image: url("/img/IMG_9190%20copy.jpg");
