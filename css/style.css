@@ -1,4 +1,5 @@
 body{
+    width: 768px;    
     margin: 0;
     padding: 0;
     text-align: center;
@@ -13,11 +14,14 @@ body{
 }
 
 .punct-menu {
+    margin: 0px;
     text-decoration: none;
     color: #333333;
     padding: 30px;
-    display: block;
     margin-top: 90px;
+    
+    
+    display: block;
 }
 
 .navigation-menu {
@@ -32,6 +36,7 @@ body{
     padding 60px;
     margin: -100px;
     position: 50%;
+    margin-left: -155px;
 }
 
 .navigation-menu a:hover {
@@ -63,11 +68,70 @@ body{
 
 .review{
     display: inline-block;
-    width: 500px;
+    width: 610px;
     height: 50px;
     position: 50%;
 } 
 
+.text-punct{
+    padding: 25px;
+    margin: 0px;
+}
+
+
+.advantages {
+    display:inline-flex;  
+    position: 100%;
+    padding-top: 50px;
+}
+
+
+.wrap{
+    background-color: #81b3d2;
+    position: 33%;
+    color: #ffffff;
+    height: 256px;
+}
+
+.wrap-img{
+    position: 67%;
+    padding: 0px;
+    height: 255px;
+    width: 510px;
+}
+
+.wrap1{
+    position: 33%;
+}
+
+.wrap2{
+    position: 33%;
+    background-color: #eeeeee
+}
+
+.main-footer{
+    display:inline-flex;
+    background-color: #ffffff;
+    opacity: 50%;
+}
+
+.visit{
+    position: 33%;
+}
+
+.social {
+    position: 33%;
+}
+
+.WEBSITE-by{
+    position: 33%;
+    display: flex;
+}
+
+.social-button{
+    background-image: url(/img/t.jpg);
+    
+}
 
 
 
@@ -76,23 +140,19 @@ body{
 
 
 
-
-.choice{
+.choice {
     background-image: url("/img/IMG_9190%20copy.jpg");
     background-repeat: no-repeat;
     width: 100%;
-    background-position: 50% 50%;
     height: 220px;
-    color: #ffffff;
-    display: inline-block;
-   
 }
+
 
 .range {
   width: 330px;
   margin: 50px auto;
 
-  color: ....;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
