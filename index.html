@@ -88,13 +88,53 @@
             <h2>заинтересовались?</h2>
              <p class="text">укажите предполагаемые даты поездки и мы покаже вам лучшие предложения гостиниц в седоне</p> 
               </div> 
-              <input type="button" value="поиск гостиницы в седоне">
+           <a class="search-botton"> поиск гостиницы в седоне</a>
               <div class="map">
                   <h3 class="visually-hidden">Карта</h3>
+                  <div class="map-block"></div>
                   <div class="forma">
-           <!-- Здесь будет форма -->
-                  </div>
-              </div>      
+               </div>
+           </div>
+         <form class="search-form" method="post">
+        <div class="form-line">
+          <label for="day1">Дата заезда:</label>
+          <input class="date1" type="text" id="day1" name="in" placeholder="24 апреля 2016" required>
+          <div class="icon"></div>
+        </div>
+        <div class="form-line">
+          <label for="day2">Дата выезда:</label>
+          <input class="date2" type="text" id="day1" name="out" placeholder="4 июля 2016">
+          <div class="icon"></div>
+        </div>
+        <div class="form-line clearfix">
+          <div class="age">
+            <label for="adult">Взрослые:</label>
+            <div class="unit-container">
+              <button class="minus" type="button">
+               -
+              </button>
+              <input class="unit field" type="text" name="adults" id="adult" value="2" required>
+              <button class="plus" type="button">
+                +
+              </button>
+            </div>
+          </div>
+           <div class="age">
+            <label for="children">Дети:</label>
+            <div class="unit-container clearfix">
+              <button class="minus" type="button">
+                -
+              </button>
+              <input class="unit field" type="text" name="child" id="children" value="0">
+              <button class="plus" type="button">
+                +
+              </button>
+            </div>
+          </div>
+        </div>
+        <button class="find-btn" type="button"><span>Найти</span>
+        </button>
+      </form>  
        </section>
  </main>
    <footer class="main-footer">
@@ -103,9 +143,9 @@
        </div>
       <div class="social">
             <ul>
-              <li><a class="social-button" href="...">твитер</a></li>
-              <li><a class="social-button" href="...">Фейсбук</a></li>
-              <li><a class="social-button" href="...">Инстаграм</a></li>
+              <li><a class="social-button1" href="...">твитеp</a></li>
+              <li><a class="social-button2" href="...">Фейсбук</a></li>
+              <li><a class="social-button3" href="...">Инстаграм</a></li>
             </ul>
         </div>
         <div class="WEBSITE-by">

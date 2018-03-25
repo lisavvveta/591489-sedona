@@ -1,4 +1,4 @@
-body{   
+html, body{   
     margin: 0;
     padding: 0;
     text-align: center;
@@ -6,7 +6,8 @@ body{
     font-size: 16px;
     color: #333;
     text-transform: uppercase;
-    background-color: #fff;
+    background: rgb(242, 242, 242);
+    box-shadow: 
 }
 
 .conteiner{
@@ -21,11 +22,10 @@ body{
 
 .punct-menu {
     display: block;
-    margin: 0px;
+    margin: 70px;
     text-decoration: none;
     color: #333;
-    padding: 30px;
-    margin-top: 90px;
+    margin-top: 10px;
 }
 
 .punct-menu: hover{
@@ -114,50 +114,126 @@ body{
 
 .wrap2{
     position: 33%;
-    background-color: #f2f2f2f2;
 }
 
-.button{
-    
-}
-
-.button:hover,
-.button:focus,
-.button:active {
-  background-color: #663d15;
-}
 
 .visually-hidden{
     visibility: hidden;
+}
+
+label {
+    cursor: default;
+}
+
+.search-form-visible {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+
+.adults{
+margin-right: 3px;
+}
+
+.search-form{
+    display: block;
+    background-color: #fff;
+    width: 580px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 0 30px 50px rgba();
+    color: #333;
+    position: absolute;
+    box-sizing: border-box;
+    line-height: 26px;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 50px;
+}
+
+.age{
+    display: inline;
 }
 
 .map{
     background-image: url(../img/map.jpg);
     height: 475px;
 }
+.map-block{
+    height: 100%;
+    width: 100%;
+}
 
 .main-footer{
-    display:inline-flex;
-    background-color: #ffffff;
-    opacity: 50%;
+    display: flex;
+    background: #fff;
+    text-align: center;
+    opacity: 0.9;
+    margin-top: -120px;
+    text-decoration: none;
 }
 
 .visit{
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    box-sizing: border-box;
+    display: block;
     position: 33%;
 }
 
-.social {
-    position: 33%;
-}
-
-.WEBSITE-by{
-    position: 33%;
+.social{
     display: flex;
+    display: block;
+    padding: 36px 0 36px;
+    line-height: 0;
+    position: 33%;
+}
+       
+.social-button1{
+    display: block;
+    width: 46px;
+    height: 48px;
+    margin-right: 6px;
+    vertical-align: top;
+    font-size: 0;
+    background-color: #81b3d2;
+    margin-left: 0px;
+    text-decoration: none;
 }
 
-.social-button{
-    background-image: url(../img/t.jpg);
-    
+.social-button2{
+    display: block;
+    width: 46px;
+    height: 48px;
+    margin-right: 6px;
+    vertical-align: top;
+    font-size: 0;
+    background-color: #81b3d2;
+    margin-left: 100px;
+}
+.social-button3{
+    display: block;
+    width: 46px;
+    height: 48px;
+    margin-right: 6px;
+    vertical-align: top;
+    font-size: 0;
+    background-color: #81b3d2;
+}
+
+
+
+.WEBSITE-by {
+    position:33%;
+    display: block;
+    padding: 39px 0 41px;
+    line-height: 26px;
+    background: #fff;
+    text-align: right;
 }
 
 
@@ -165,25 +241,52 @@ body{
 /*страница отеля*/
 
 .choice {
-    background-image: url("/img/IMG_9190%20copy.jpg");
-    background-repeat: no-repeat;
+    margin-top: 0px;
+    display:flex;
     width: 100%;
-    height: 220px;
+    color: #fff;
+    background: #4b769e url("/img/IMG_9190%20copy.jpg") no-repeat 50% 20%;
+}
+
+.infrastructure{
+    display: block;
+    width: 15%;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 27px;
+    padding-bottom: 30px;
+}
+
+.accommodation{
+    display: block;
+    width: 25%;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 27px;
+    padding-bottom: 30px;
+    
+}
+
+div{
+    display: block;
 }
 
 
 .range {
-  width: 330px;
-  margin: 50px auto;
-
-  color: #ffffff;
-  text-transform: uppercase;
+    display: inline-block;
+    width: 45%;
+    padding-top: 26px;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
 
 .range-title {
   margin-bottom: 9px;
-
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -192,12 +295,9 @@ body{
 
 .price {
   position: relative;
-  
   height: 36px;
   margin-bottom: 20px;
-
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -207,21 +307,17 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
 
 .price label {
   display: inline-block;
-
   font-size: 14px;
   line-height: 38px;
   vertical-align: top;
-
   cursor: pointer;
 }
 
@@ -234,30 +330,25 @@ body{
 .price input {
   width: 50px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
 }
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
 .range-controls .controls {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .circle {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
@@ -265,10 +356,8 @@ body{
 .circle-max {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -293,14 +382,91 @@ body{
   display: block;
   margin: 0 auto;
   padding: 6px 35px;
-
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
+}
+
+.filter{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 20px 70px;
+  border: 1px #e5e5e5 solid;    
+}
+
+.filter-found{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    text-align: left;
+    text-decoration: none; 
+}
+
+.sorting{
+    display: block;
+    width: 33%
+}
+
+
+.result1{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px 70px;
+  border-bottom: 1px #e5e5e5 solid; 
+}
+
+.amara{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    text-align: left;
+    text-decoration: none; 
+}
+
+.amara-img{
+    margin: 35px;
+}
+
+.star{
+    background-image: url(../img/star.png) repeat-x;
+}
+
+.rating{
+    display: flex;
+    padding: 5px;
+    background-color: #f2f2f2;
+    align-items: flex-end;
+}
+
+.desert{
+     display: flex;
+    justify-content: space-between;
+    width: 40%;
+    text-align: left;
+    text-decoration: none; 
+}
+
+.desert-img{
+    margin: 35px;
+}
+
+.Villas{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.Villas-img{
+    margin: 35px;
 }
