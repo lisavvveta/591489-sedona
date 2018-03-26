@@ -96,38 +96,42 @@
                </div>
            </div>
          <form class="search-form" method="post">
-        <div class="form-line">
-          <label for="day1">Дата заезда:</label>
-          <input class="date1" type="text" id="day1" name="in" placeholder="24 апреля 2016" required>
-          <div class="icon"></div>
+              <div class="form-line clearfix">
+                  <label for="day">Дата заезда:</label>
+                  <div class="day">
+                  <input class="date field" type="text" id="day1" name="in" placeholder="24 апреля 2016" required>
+              <div class="icon field"><img src="img/calendar.png" alt="календарь"> </div>
+             </div>
+             </div>
+            <div class="form-line clearfix">
+          <label for="day">Дата выезда:</label>
+          <div class="day">
+          <input class="date field" type="text" id="day1" name="out" placeholder="4 июля 2016">
+          <div class="icon field">
+          <img src="img/calendar.png" alt="календарь"> </div>
         </div>
-        <div class="form-line">
-          <label for="day2">Дата выезда:</label>
-          <input class="date2" type="text" id="day1" name="out" placeholder="4 июля 2016">
-          <div class="icon"></div>
-        </div>
+             </div>
         <div class="form-line clearfix">
-          <div class="age">
+          <div class="half-width">
             <label for="adult">Взрослые:</label>
             <div class="unit-container">
-              <button class="minus" type="button">
-               -
+              <button class="btn minus-btn" type="button">
+                <i class="icon-minus"></i>
               </button>
               <input class="unit field" type="text" name="adults" id="adult" value="2" required>
-              <button class="plus" type="button">
-                +
+              <button class="btn plus-btn" type="button">
+                <i class="icon-plus"></i>
               </button>
             </div>
-          </div>
-           <div class="age">
-            <label for="children">Дети:</label>
+          </div><div class="half-width">
+            <label for="kid">Дети:</label>
             <div class="unit-container clearfix">
-              <button class="minus" type="button">
-                -
+              <button class="btn minus-btn" type="button">
+                <i class="icon-minus"></i>
               </button>
-              <input class="unit field" type="text" name="child" id="children" value="0">
-              <button class="plus" type="button">
-                +
+              <input class="unit field" type="text" name="kids" id="kid" value="0">
+              <button class="btn plus-btn" type="button">
+                <i class="icon-plus"></i>
               </button>
             </div>
           </div>
@@ -141,11 +145,11 @@
        <div class="visit">
            <h3>#VISITSEDONA</h3>
        </div>
-      <div class="social-network">
+    <div class="social-network">
             <ul>
-              <li><a class="social-button" href="...">Вконтакте</a></li>
-              <li><a class="social-button" href="...">Фейсбук</a></li>
-              <li><a class="social-button" href="...">Инстаграм</a></li>
+                <li><a class="social-button" href="..."><span class="twit">Твиттер</span></a></li>
+                <li><a class="social-button" href="..."><span class="face">Фейсбук</span></a></li>
+                <li><a class="social-button" href="..."><span class="insta">Инстаграм</span></a></li>
             </ul>
         </div>
         <div class="WEBSITE-by">
