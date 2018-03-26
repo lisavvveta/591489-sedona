@@ -591,6 +591,7 @@ div{
     display: flex;
     justify-content: space-between;
     width: 200px;
+    margin-top: 25px;
     padding: 0px;
     font-size: 21px;
     text-decoration: none;
@@ -610,7 +611,7 @@ div{
     width: 210px;
 }
 
-.social-button{
+.social-btns .social {
     display: inline-block;
     width: 46px;
     height: 48px;
@@ -618,4 +619,17 @@ div{
     vertical-align: top;
     font-size: 0;
     background-color: #81b3d2;
+}
+
+.social-btns .social:hover {
+    background-color: #669ec0;
+}
+
+.social-btns .social:active {
+    background-color: #5496bd;
+}
+
+footer .social-btns {
+    padding: 36px 0 36px;
+    line-height: 0;
 }
