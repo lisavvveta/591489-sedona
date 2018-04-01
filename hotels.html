@@ -25,14 +25,17 @@
                    <h3>инфраструктура</h3>
                     <ul class="checkbox">
                      <li>
+                        <span class="check-on" ></span>
                          <input type="checkbox" name="pool" hidden="hidden" id="1">
                          <label for="1">Бессейн</label>
                      </li>
                      <li>
+                        <span class="check-off"></span>
                          <input type="checkbox" name="parking place" hidden="hidden" id="2">
                          <label for="2">Парковка</label>
                      </li>
                       <li>
+                         <span class="check-off"></span>
                           <input type="checkbox" hidden="hidden" name="WI-FI" id="3">
                           <label for="3">WI-FI</label>
                       </li>
@@ -42,14 +45,17 @@
                      <h3>тип жилья</h3>
                      <ul class="checkbox">
                          <li>
+                             <span class="check-on" ></span>
                               <input type="checkbox" name="hotel" hidden="hidden" id="4">
                               <label for="4">гостиница</label>
                          </li>
                           <li>
-                              <input type="checkbox" name="motel" hidden="hidden" id="5">
+                             <span class="check-on" ></span>
+                              <input  type="checkbox" name="motel" hidden="hidden" id="5">
                               <label for="5">мотель</label>
                           </li>
                           <li>
+                             <span class="check-on" ></span>
                               <input type="checkbox" hidden="hidden" name="apartments" id="6">
                               <label for="6">апартаменты</label>
                            </li>
@@ -80,7 +86,7 @@
                 <p>по типу</p>
                 <p>по рейтенгу</p>
             </div>
-            <div >
+            <div class="icon">
                 <img src="img/icon-up-dir.png" alt="вверх">
                 <img src="img/icon-down-dir.png" alt="вниз">
             </div>
@@ -93,16 +99,18 @@
                 <div class="amara-text">
                     <h3> amara resort & spa</h3>
                     <p>гостиница от 4000 P.</p>
-                   <button class="info-hotels" type="submit">подробнее</button>
-                    <button class="book-it" type="submit">забронировать</button> 
+                   <a class="info info-hotels" >подробнее</a>
+                    <a class=" book book-it">забронировать</a> 
                 </div>
             </div>
-                <div class="star">
-                   <img src="img/star.png" alt="звезда">
-                   <img src="img/star.png" alt="звезда">
-                   <img src="img/star.png" alt="звезда">
-                   <img src="img/star.png" alt="звезда">
+                <div>
+                   <img class="star" src="img/star.png" alt="звезда">
+                   <img class="star" src="img/star.png" alt="звезда">
+                   <img class="star" src="img/star.png" alt="звезда">
+                   <img class="star" src="img/star.png" alt="звезда">
+                   <div class="star-rating">
                     <span class="rating"> рейтинг 8,5 </span>
+                    </div>
                 </div>
         </section>
         <section class="result1">
@@ -113,15 +121,17 @@
                 <div class="desert-text">
                     <h3> Desert Quail Inn</h3>
                     <p>мотель от 3000 P.</p>
-                   <button class="info-hotels" type="submit">подробнее</button>
-                    <button class="book-it" type="submit">забронировать</button> 
+                   <a class="info info-hotels" >подробнее</a>
+                    <a class="book book-it" >забронировать</a> 
                 </div>
             </div>
-                <div class="star">
-                   <img src="img/star.png" alt="звезда">
-                   <img src="img/star.png" alt="звезда">
-                   <img src="img/star.png" alt="звезда">
+                <div>
+                   <img class="star" src="img/star.png" alt="звезда">
+                   <img class="star" src="img/star.png" alt="звезда">
+                   <img class="star" src="img/star.png" alt="звезда">
+                   <div class="star-rating">
                     <span class="rating"> рейтинг 8,9 </span>
+                    </div>
                 </div>
         </section>
           <section class="result1">
@@ -132,18 +142,20 @@
                 <div class="Villas-text">
                     <h3> Villas at Poco Diablo</h3>
                     <p>апартаменты от 2000 P.</p>
-                   <button class="info-hotels" type="submit">подробнее</button>
-                    <button class="book-it" type="submit">забронировать</button> 
+                   <a class="info info-hotels">подробнее</a>
+                    <a class="book book-it">забронировать</a> 
                 </div>
               </div>
                 <div class="star">
-                    <img src="img/star.png" alt="звезда">
-                    <img src="img/star.png" alt="звезда">
-                    <span class="rating"> рейтинг 9,2 </span>
+                    <img class="star" src="img/star.png" alt="звезда">
+                    <img class="star" src="img/star.png" alt="звезда">
+                    <div class="star-rating">
+                        <span class="rating"> рейтинг 9,2 </span>
+                    </div>
                 </div>
         </section>
     </main>
-    <footer class="main-footer2">
+    <footer class="main-footer">
        <div class="visit">
            <h3>#VISITSEDONA</h3>
        </div>
@@ -153,8 +165,8 @@
                 <a class="social" href="..."><span class="insta"><img src="img/youtube.jpg"> Инстаграм</span></a>
         </div>
         <div class="WEBSITE-by">
+            <span>WEBSITE by</span>
             <a class="button" href="https://htmlacademy.ru">
-            <p class="text">WEBSITE by</p>
             <img src="img/logo_name.jpg" alt="logo">
             </a>
         </div>
