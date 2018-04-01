@@ -336,11 +336,14 @@ form{
     background: #4b769e url("/img/IMG_9190%20copy.jpg") no-repeat 50% 20%;
 }
 
+li{
+    list-style-type: none;
+}
+
 .infrastructure{
     display: block;
     width: 20%;
     text-align: left;
-    text-decoration: none;
     padding-left: 50px;
     padding-top: 27px;
     padding-bottom: 30px;
@@ -350,7 +353,6 @@ form{
     display: block;
     width: 22%;
     text-align: left;
-    text-decoration: none;
     padding-top: 27px;
     padding-bottom: 30px;
 }
