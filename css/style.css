@@ -338,22 +338,19 @@ form{
 
 .infrastructure{
     display: block;
-    width: 15%;
+    width: 20%;
     text-align: left;
     text-decoration: none;
     padding-left: 50px;
-    padding-right: 10px;
     padding-top: 27px;
     padding-bottom: 30px;
 }
 
 .accommodation{
     display: block;
-    width: 25%;
+    width: 22%;
     text-align: left;
     text-decoration: none;
-    padding-left: 25px;
-    padding-right: 10px;
     padding-top: 27px;
     padding-bottom: 30px;
 }
@@ -363,18 +360,21 @@ form{
     background-image: url(../img/checkbox-on.png);
     background-repeat: no-repeat;
     text-decoration: none;
-    padding: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
 }
 
 .check-off{
     background-image: url(../img/checkbox-off.png);
     background-repeat: no-repeat;
-    padding: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
 }
 
 .range {
     display: inline-block;
-    width: 45%;
+    width: 33%;
+    margin-left: 15%;
     padding-top: 26px;
     vertical-align: top;
     box-sizing: border-box;
@@ -486,6 +486,11 @@ form{
   cursor: pointer;
 }
 
+.show:hover{
+    color: #000;
+    background: #fff;
+}
+
 .filter{
   margin-top: 0px;
   display: flex;
@@ -529,7 +534,6 @@ form{
     text-align: left;
     text-decoration: none; 
     padding: -10px;
-    
 }
 
 .amara-img{
